@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-banner {
+  background-color: white;
+}
+.main-banner__container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 20px;
+}
+.main-banner__image-overlay-light {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/id/1224392306/photo/dark-blue-minimal-texture-banner-with-space-for-text-word-or-product-display-for-your-banner.jpg?b=1&s=170667a&w=0&k=20&c=3PWdyL-46FLuOGRjh8xwhk6uFE5YC4-tMbMFF2yy4Es=);
+  background-size: cover;
+  background-position: center;
+}
+.main-banner__image-overlay-dark {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(https://img.freepik.com/premium-vector/modern-white-gray-abstract-web-banner-background-creative-design-with-stripe-lines-minimal-geometric-shapes-vector-abstract-graphic-design-banner-pattern-background-template_181182-18232.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 12px;
+}
+.main-banner__text {
+  text-align: center;
+}
+.main-banner__text-title {
+  padding: 12px 0;
+  font-size: 26px;
+  margin-bottom: 28px;
+  font-family: serif;
+  font-weight: 500;
+}
+.main-banner__text-desc {
+  padding: 18px 0;
+  margin: 18px 0;
+}
+.main-banner__text-link {
+  margin: auto;
+  padding: 12px 50px;
+  background: wheat;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  margin-bottom: 18px;
+}/*# sourceMappingURL=styles.css.map */
