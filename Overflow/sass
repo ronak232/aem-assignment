@@ -6,9 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html,
 body {
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
 }
 
 .dark-bg {
@@ -35,7 +41,7 @@ body {
     font-family: "Open Sans", sans-serif;
 
     @media (min-width: 720px) {
-      width: 50%;
+      width: 60%;
       margin-right: auto;
     }
   }
@@ -56,7 +62,7 @@ body {
   }
 
   &__slider {
-    padding: 60px 0px;
+    padding: 45px 0px;
     position: relative;
   }
 }
@@ -69,7 +75,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    padding-bottom: 24px;
+    padding-bottom: 44px;
   }
 
   &-slide {
@@ -103,9 +109,9 @@ body {
     padding: 20px;
     color: #fff;
     font-weight: 600;
-    // @media (min-width: 768px) {
-    //   rig
-    // }
+    @media (min-width: 768px) {
+      right: 8%;
+    }
   }
   .swiper-button-prev {
     position: absolute;
@@ -117,9 +123,9 @@ body {
     padding: 20px;
     color: #fff;
     font-weight: 600;
-    // @media (min-width: 768px) {
-    //   left: 20%;
-    // }
+    @media (min-width: 768px) {
+      left: 8%;
+    }
   }
 
   .swiper-scrollbar {
